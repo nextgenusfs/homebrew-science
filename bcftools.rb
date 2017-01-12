@@ -19,6 +19,7 @@ class Bcftools < Formula
   depends_on "gsl" if build.with? "polysomy"
   depends_on "htslib"
   depends_on "samtools" => :recommended
+  depends_on "perl" => :build
 
   def install
     inreplace "Makefile", "include $(HTSDIR)/htslib.mk", ""

@@ -22,6 +22,7 @@ class Mrbayes < Formula
   depends_on "automake" => :build
   depends_on :mpi => [:cc, :optional]
   depends_on "beagle" => :optional
+  depends_on "perl" => :build
 
   fails_with :llvm do
     build 2336

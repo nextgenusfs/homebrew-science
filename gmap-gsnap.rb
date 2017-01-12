@@ -4,9 +4,9 @@ class GmapGsnap < Formula
   # doi "10.1093/bioinformatics/btq057"
   # tag "bioinformatics"
 
-  version "2016-05-01"
+  version "2017-01-10"
   url "http://research-pub.gene.com/gmap/src/gmap-gsnap-#{version}.tar.gz"
-  sha256 "ab13a849613c978a6fd584908f758db599143fe5f9e8910e4904c1dea9dfcb8e"
+  sha256 "3f8f35db7b31377351b096526f6b58b199c4ef094c7c8c9191317981bea831fd"
 
   bottle do
     sha256 "95b512e5a55f7c1f911a82c8954a0e0e02c76f96783c04f8f0de38b808896927" => :el_capitan

@@ -2,9 +2,9 @@ class Repeatmasker < Formula
   homepage "http://www.repeatmasker.org/"
   # tag "bioinformatics"
 
-  version "4.0.5"
-  url "http://www.repeatmasker.org/RepeatMasker-open-4-0-5.tar.gz"
-  sha256 "e4c15c64b90d57ce2448df4c49c37529eeb725e97f3366cc90f794a4c0caeef7"
+  version "4.0.7"
+  url "http://www.repeatmasker.org/RepeatMasker-open-4-0-7.tar.gz"
+  sha256 "16faf40e5e2f521146f6692f09561ebef5f6a022feb17031f2ddb3e3aabcf166"
 
   bottle do
     sha256 "32acef0307f30cc3d20eca9e1eb7c3f485369bdcf5ac6bc6f25ebce2e257f521" => :yosemite
@@ -44,7 +44,7 @@ class Repeatmasker < Formula
     # 5. Done
     (libexec/"config.txt").write <<-EOS.undent
 
-      #{perl}
+      env
       #{libexec}
       #{HOMEBREW_PREFIX}/bin/trf
       2
@@ -68,7 +68,7 @@ class Repeatmasker < Formula
     need to obtain the complete RepeatMasker repeat library from
     GIRI ( www.girinst.org ) and install it:
       cd #{libexec}
-      tar zxvf repeatmaskerlibraries-20140131.tar.gz
+      tar zxvf RepBaseRepeatMaskerEdition-20170127.tar.gz
       ./configure <config.txt
 
     The default aligner is RMBlast. You may reconfigure RepeatMasker

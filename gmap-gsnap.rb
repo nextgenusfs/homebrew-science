@@ -4,7 +4,7 @@ class GmapGsnap < Formula
   # doi "10.1093/bioinformatics/btq057"
   # tag "bioinformatics"
 
-  version "2017-01-14"
+  version "2017-03-17"
   url "http://research-pub.gene.com/gmap/src/gmap-gsnap-#{version}.tar.gz"
   sha256 "f3eca0b66ff9770c5965d43b3532e59d839e593de00fa3550141527f3c7f1d2c"
 

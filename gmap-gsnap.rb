@@ -16,7 +16,6 @@ class GmapGsnap < Formula
   end
 
   depends_on "samtools"
-  depends_on "perl" => :build
 
   def install
     system "./configure", "--prefix=#{prefix}"
